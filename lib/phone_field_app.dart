@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'pages/main_page.dart';
+import 'main_page/main_page.dart';
 
 class PhoneFieldApp extends StatelessWidget {
   const PhoneFieldApp({super.key});
