@@ -1,16 +1,5 @@
-# tt_phone_field
+Since it is impossible to get country phone codes from https://restcountries.com/, I partially borrowed the code from this package: https://pub.dev/packages/country_picker and adapted it to my project.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The project implemented:
+1. Searching by country name & country (phone) code;
+2. Phone number formatter works depending on the selected country, because different countries have different number lengths. For example, in China, the number consists of 11 digits, and in Ukraine - of 9.
